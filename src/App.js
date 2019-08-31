@@ -45,7 +45,7 @@ class App extends React.Component {
           <h1>Literary Sexts</h1>
           <p>A random quote from <a href="https://www.tumblr.com/search/literary+sexts" target="_blank">tumblr.com</a></p>
         </header>
-        <div id="quote-box">
+        <section id="quote-box">
           <q
             id="text"
             dangerouslySetInnerHTML={{ __html: text }} />
@@ -56,7 +56,10 @@ class App extends React.Component {
           <a href={`https://twitter.com/intent/tweet?text=${encodeURI("\"" + text + "\"" + "\n \n" + "https://codepen.io/Jemimaabu/pen/bGbRzea")}`} id="tweet-quote" target="_blank">
             <small>Tweet</small>
           </a>
-        </div>
+        </section>
+        <footer>
+          Built by <a href="http://www.jemimaabu.com">Jemima</a>
+        </footer>
       </main>
     );
   }
