@@ -1,4 +1,2 @@
 [build]
-  base = "random-quote-generator"
-  publish="random-quote-generator/build"
-  command = "npm run build"
+  command = "yarn build"
