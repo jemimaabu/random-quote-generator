@@ -46,6 +46,6 @@ header a {
 }
 @media (max-width: 750px) {
   #quote-box {
-    width: 85vh;
+    width: 85vw;
   }
 }
