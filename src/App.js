@@ -43,7 +43,7 @@ class App extends React.Component {
       <main id="quote-component">
         <header>
           <h1>Literary Sexts</h1>
-          <p>A random quote from <a href="https://www.tumblr.com/search/literary+sexts" target="_blank">tumblr.com</a></p>
+          <p>A random quote from <a href="https://www.tumblr.com/search/literary+sexts" target="_blank"  rel="noopener noreferrer">tumblr.com</a></p>
         </header>
         <section id="quote-box">
           <q
@@ -53,12 +53,12 @@ class App extends React.Component {
             id="author"
             dangerouslySetInnerHTML={{ __html: author }} />
           <button onClick={() => this.getRandomQuote()} id="new-quote">New quote</button>
-          <a href={`https://twitter.com/intent/tweet?text=${encodeURI("\"" + text + "\"" + "\n \n" + "https://randquotegenerator.netlify.com")}`} id="tweet-quote" target="_blank">
+          <a href={`https://twitter.com/intent/tweet?text=${encodeURI("\"" + text + "\"" + "\n \n" + "https://randquotegenerator.netlify.com")}`} id="tweet-quote" target="_blank" rel="noopener noreferrer">
             <small>Tweet</small>
           </a>
         </section>
         <footer>
-          Built by <a href="http://www.jemimaabu.com">Jemima</a>
+          Built by <a href="http://www.jemimaabu.com" target="_blank" rel="noopener noreferrer">Jemima</a>
         </footer>
       </main>
     );
