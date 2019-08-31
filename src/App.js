@@ -43,7 +43,7 @@ class App extends React.Component {
       <main id="quote-component">
         <header>
           <h1>Literary Sexts</h1>
-          <p>A collection of quotes from <a href="https://www.tumblr.com/search/literary+sexts" target="_blank">tumblr.com</a></p>
+          <p>A random quote from <a href="https://www.tumblr.com/search/literary+sexts" target="_blank">tumblr.com</a></p>
         </header>
         <div id="quote-box">
           <q
