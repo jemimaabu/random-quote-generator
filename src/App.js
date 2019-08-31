@@ -53,7 +53,7 @@ class App extends React.Component {
             id="author"
             dangerouslySetInnerHTML={{ __html: author }} />
           <button onClick={() => this.getRandomQuote()} id="new-quote">New quote</button>
-          <a href={`https://twitter.com/intent/tweet?text=${encodeURI("\"" + text + "\"" + "\n \n" + "https://codepen.io/Jemimaabu/pen/bGbRzea")}`} id="tweet-quote" target="_blank">
+          <a href={`https://twitter.com/intent/tweet?text=${encodeURI("\"" + text + "\"" + "\n \n" + "https://randquotegenerator.netlify.com")}`} id="tweet-quote" target="_blank">
             <small>Tweet</small>
           </a>
         </section>
